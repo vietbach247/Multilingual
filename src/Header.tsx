@@ -23,6 +23,8 @@ const Header: React.FC = () => {
   return (
     <HeaderContainer theme={theme}>
       <h1>{t("header")}</h1>
+      <h1>{t("theme")}</h1>
+      <h1>{t("toggleTheme")}</h1>
       <div>
         <label>{t("language")}:</label>
         <button onClick={() => changeLanguage("en")}>English</button>
